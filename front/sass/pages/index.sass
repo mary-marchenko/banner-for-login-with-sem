@@ -1,0 +1,41 @@
+$white: #FFF
+$magenta: #FF267E
+
+$font-suisse-semiB: SuisseIntl-SemiBold, sans-serif //600
+
+body
+  overscroll-behavior: none
+  img
+    max-width: 100%
+    height: auto
+.wrapper
+  width: 100%
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  overscroll-behavior: none
+  height: 100%
+  display: flex
+.banner
+  position: relative
+  width: 50%
+  background: url("../img/bg.jpg") no-repeat 60% 100%/cover
+  display: flex
+  flex-direction: column
+  align-items: center
+  height: 100%
+  overflow: hidden
+  &__container
+    width: 100%
+  &__title
+    background-color: $magenta
+    color: $white
+    font-family: $font-suisse-semiB
+    font-size: 4vw
+    max-height: 92px
+    text-align: center
+    text-transform: uppercase
+    display: flex
+    align-items: center
+    justify-content: center
+    padding-top: 4px
+
+
